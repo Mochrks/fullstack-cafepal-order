@@ -3,22 +3,22 @@
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.0.0-blue" alt="React Version" />
   <img src="https://img.shields.io/badge/Vite-4.0.0-brightgreen" alt="Vite Version" />
-  <img src="https://img.shields.io/badge/SpringBoot-2.5.4-orange" alt="Spring Boot Version" />
+  <img src="https://img.shields.io/badge/ExpressJs-orange" alt="Express Boot Version" />
   <img src="https://img.shields.io/badge/PostgreSQL-Database-blue" alt="PostgreSQL Integration" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,vite,spring,postgres" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=react,vite,express,postgres" alt="Tech Stack Icons" />
 </p>
 
 ## Overview
 
-This project is a **full-stack application** for a **cafe ordering system**, built using modern web technologies. The front-end is developed with **React** and **Vite** for a fast, responsive, and dynamic user interface. The back-end is powered by **Spring Boot**, providing a robust and scalable RESTful API.
+This project is a **full-stack application** for a **cafe ordering system**, built using modern web technologies. The front-end is developed with **React** and **Vite** for a fast, responsive, and dynamic user interface. The back-end is powered by **ExpressJs**, providing a robust and scalable RESTful API.
 
 ## Features
 
 - Dynamic and responsive UI built with **React** and **Vite**
-- RESTful API for seamless data interaction powered by **Spring Boot**
+- RESTful API for seamless data interaction powered by **ExpressJS**
 - User-friendly ordering experience
 - Integration with **PostgreSQL** for data persistence
 - Modern design principles for an intuitive user experience
@@ -27,7 +27,7 @@ This project is a **full-stack application** for a **cafe ordering system**, bui
 
 - **React 18.0.0** for front-end development
 - **Vite** for fast development and build optimization
-- **Spring Boot 2.5.4** for back-end development
+- **Express Js** for back-end development
 - **PostgreSQL** for database management
 
 ## Setup & Installation
@@ -55,24 +55,23 @@ This project is a **full-stack application** for a **cafe ordering system**, bui
     npm run dev
     ```
 
-- The application will be running on [http://localhost:3000](http://localhost:3000).
+- The application will be running on [http://localhost:5173](http://localhost:5173).
 
-### Back-end (Spring Boot)
+### Back-end (Exoress)
 
 - **Navigate to the back-end directory**
 
     ```bash
-    cd ../springboot-cafepal-order
+    cd ../express-cafepal-order
     ```
 
 - **Install dependencies and run the application**
 
     ```bash
-    mvn clean install
-    mvn spring-boot:run
+    npm start
     ```
 
-- The back-end will be running on [http://localhost:8080](http://localhost:8080).
+- The back-end will be running on [http://localhost:3000](http://localhost:3000).
 
 
 ## Connect with me:
